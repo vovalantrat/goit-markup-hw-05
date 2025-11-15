@@ -664,18 +664,18 @@ main {
     margin-bottom: 16px;
 }
 
-.overlay-label textarea {
-    height: auto;
+.label-container-textarea .overlay-input {
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
     padding-left: 16px;
     padding-top: 8px;
     resize: none;
 }
 
 .overlay-label textarea::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16667;
-    letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
 
