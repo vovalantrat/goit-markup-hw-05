@@ -23,12 +23,6 @@ img {
     display: block;
 }
 
-.page-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 main {
     flex-grow: 1;
 }
@@ -420,6 +414,7 @@ main {
     background-color: #2E2F42;
     color: #F4F4FD;
     padding: 100px 0;
+    
 }
 
 .page-footer .container {
