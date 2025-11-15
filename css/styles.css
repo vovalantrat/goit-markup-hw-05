@@ -694,8 +694,6 @@ main {
 }
 
 .checkbox-icon-span {
-    font-weight: 400;
-    margin-left: 8px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -711,8 +709,10 @@ main {
 
 }
 
-.visually-hidden:checked .checkbox-text {
+.visually-hidden:checked .checkbox-icon-span {
     background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .link-privacy-policy {
