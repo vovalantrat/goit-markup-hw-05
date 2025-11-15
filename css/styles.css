@@ -712,6 +712,10 @@ main {
     fill: #F4F4FD;
 }
 
+.input-check:focus + .checkbox-text>.check-empty {
+    border-color: #404bbf;
+}
+
 .link-privacy-policy {
     color: #4D5AE5;
     text-decoration: underline;
