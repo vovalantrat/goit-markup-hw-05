@@ -554,8 +554,8 @@ main {
     z-index: 999;
     display: flex;
     justify-content: center;
-    opacity: 0;
-    pointer-events: none;
+    /* opacity: 0;
+    pointer-events: none; */
     transition: 250ms ease-in-out;
     
 }
