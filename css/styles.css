@@ -633,7 +633,6 @@ main {
 }
 
 .label-container {
-    position: relative;
     margin-bottom: 8px;
 }
 
@@ -645,6 +644,10 @@ main {
     color: #8E8F99;
     display: block;
     margin-bottom: 4px;
+}
+
+.input-svg-container {
+    position: relative;
 }
 
 .label-icon {
