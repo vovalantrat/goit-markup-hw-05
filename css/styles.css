@@ -682,18 +682,14 @@ main {
     margin-bottom: 24px;
 }
 
-.visually-hidden {
-
-}
-
-.checkbox {
+.checkbox-text {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
 
-.checkbox-icon-span {
+.check-empty {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -703,16 +699,17 @@ main {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .checkbox-icon {
 
 }
 
-.visually-hidden:checked .checkbox-icon-span {
+.input-check:checked + .checkbox-text > .check-empty {
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+    fill: #ffffff;
 }
 
 .link-privacy-policy {
