@@ -472,14 +472,17 @@ main {
     margin-left: auto;
 }
 
-
-
 .footer-label-title {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
     margin-bottom: 16px;
 }
 
 .form-footer {
     display: flex;
+    gap: 24px;
 }
 
 .form-label-footer {
@@ -488,6 +491,11 @@ main {
 }
 
 .form-footer-input {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
     background: none;
     border: 1px solid #ffffff;
     border-radius: 4px;
@@ -502,14 +510,13 @@ main {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #ffffff;
-    padding-left: 16px;
 }
 
 .form-footer-btn {
     border: none;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -524,7 +531,7 @@ main {
     color: #ffffff;
     margin-top: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 24px;
+    cursor: pointer;
 }
 
 .form-footer-btn:hover, .form-footer-btn:focus {
