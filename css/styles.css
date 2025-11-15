@@ -698,12 +698,12 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;
     margin-right: 8px;
+    fill: transparent;
 }
 
 .checkbox-icon {
-
+    
 }
 
 .input-check:checked + .checkbox-text > .check-empty {
