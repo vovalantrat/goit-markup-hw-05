@@ -682,6 +682,10 @@ main {
     margin-bottom: 24px;
 }
 
+.visually-hidden {
+
+}
+
 .checkbox {
     display: flex;
 }
