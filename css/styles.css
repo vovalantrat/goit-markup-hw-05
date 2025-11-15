@@ -660,11 +660,14 @@ main {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.label-container-textarea {
+    margin-bottom: 16px;
+}
+
 .overlay-label textarea {
     height: auto;
     padding-left: 16px;
     padding-top: 8px;
-    margin-bottom: 16px;
     resize: none;
 }
 
