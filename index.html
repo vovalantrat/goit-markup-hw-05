@@ -545,7 +545,7 @@
             </div>
           </div>
 
-          <div class="label-container-textarea">
+          <div class="textarea-container">
             <label for="user-comment" class="overlay-label"> Comment </label>
             <textarea
               id="user-comment"
@@ -554,8 +554,15 @@
               rows="8"
               placeholder="Text input"
             ></textarea>
-            <label class="checkbox">
-              <input type="checkbox" name="terms&conditions" />
+          </div>
+          <div class="checkbox-container">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label for="user-privacy" class="checkbox">
               <span class="checkbox-text">
                 I accept the terms and conditions of the
                 <a class="link-privacy-policy" href="#">Privacy Policy</a>

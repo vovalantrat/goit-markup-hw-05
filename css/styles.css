@@ -660,18 +660,17 @@ main {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.label-container-textarea {
+.textarea-container {
     margin-bottom: 16px;
 }
 
-.label-container-textarea .overlay-input {
+.textarea-container .overlay-input {
     height: 120px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    padding-left: 16px;
-    padding-top: 8px;
+    padding: 8px 16px;
     resize: none;
 }
 
@@ -679,9 +678,12 @@ main {
     color: rgba(46, 47, 66, 0.4);
 }
 
+.checkbox-container {
+    margin-bottom: 24px;
+}
+
 .checkbox {
     display: flex;
-    margin-bottom: 24px;
 }
 
 .checkbox-text {
