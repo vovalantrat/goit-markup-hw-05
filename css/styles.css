@@ -709,7 +709,7 @@ main {
 .input-check:checked + .checkbox-text > .check-empty {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    fill: #F4F4FD;
 }
 
 .link-privacy-policy {
@@ -719,15 +719,21 @@ main {
 }
 
 .submit-btn {
+    display: block;
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4D5AE5;
     color: #ffffff;
-    margin: 0 95px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
 }
 
 .submit-btn:hover, .submit-btn:focus {
